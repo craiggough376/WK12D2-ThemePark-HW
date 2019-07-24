@@ -12,7 +12,7 @@ public class Dodgems extends Attraction implements IReviewed, ITicketed {
 
 
     public double defaultPrice() {
-        return 5.00;
+        return 4.50;
     }
 
 

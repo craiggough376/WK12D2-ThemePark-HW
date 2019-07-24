@@ -37,11 +37,11 @@ public class DodgemTest {
 
     @Test
     public void visitorOver12GetsDefaultPrice(){
-        assertEquals(5.00, dodgems.priceFor(visitor1), 0.01);
+        assertEquals(4.50, dodgems.priceFor(visitor1), 0.01);
     }
 
     @Test
     public void visitorUnder12GetsHalfPrice(){
-        assertEquals(2.50, dodgems.priceFor(visitor2), 0.01);
+        assertEquals(2.25, dodgems.priceFor(visitor2), 0.01);
     }
 }

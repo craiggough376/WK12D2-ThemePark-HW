@@ -19,7 +19,7 @@ public class RollerCoaster  extends Attraction implements ISecurity, IReviewed, 
 
 
     public double defaultPrice() {
-        return 10.00;
+        return 8.40;
     }
 
     public double priceFor(Visitor visitor) {

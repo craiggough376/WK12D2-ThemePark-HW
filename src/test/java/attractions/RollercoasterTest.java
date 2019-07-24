@@ -56,11 +56,11 @@ public class RollercoasterTest {
 
     @Test
     public void canGetDefaultPriceForVisitorBelow200(){
-        assertEquals(10.00, rollerCoaster.priceFor(visitor1), 0.01);
+        assertEquals(8.40, rollerCoaster.priceFor(visitor1), 0.01);
     }
 
     @Test
     public void visitorOver200SoPriceDoubles() {
-        assertEquals(20.00, rollerCoaster.priceFor(visitor4), 0.01);
+        assertEquals(16.80, rollerCoaster.priceFor(visitor4), 0.01);
     }
 }
